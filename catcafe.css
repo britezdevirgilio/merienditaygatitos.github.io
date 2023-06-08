@@ -1,0 +1,126 @@
+@font-face{
+	     font-family:Porky s;
+		 src:url("fonts/PORKYS_.TTF");
+}
+@font-face{
+	     font-family:Coiny Cyrillic;
+		 src:url("fonts/Coiny-Cyrillic.ttf");
+}
+body{
+	background-color:#f0cca3;
+	background-image: url("imagenes/fondo99.jpg");
+	 font-family: courier, gt pressura mono, monospace;
+}
+h1{
+	text-align: center;
+	color: #5d738c;
+	margin-left: 35%;
+	margin-right: 35%;
+	font-size:35px;
+	background-color: white;
+	border-style: double;
+	 font-family:Porky s;
+}
+img{
+    display:block;
+    margin:auto;
+    margin-bottom: 2%;
+	margin-top: 2%;
+	box-shadow: 6px 6px 6px #5d738c;
+}
+
+h2{
+	font-size:30px;
+	color: #b89463;
+	background-color: white;
+	border-bottom: solid;
+	margin-left:10%;
+	margin-right:50%;
+
+	font-family:Coiny Cyrillic;
+	
+}
+
+p{
+	margin-left:10%;
+	margin-right:10%;
+	font-size:20px;
+	text-shadow: 1px 1px 1px black;
+	text-align:justify;
+	line-height:30px;
+}
+
+table{
+	background-color: white;
+    margin:auto;
+	text-align:center;
+	width:50%;
+	border-style:inset;
+	border-width:5px;
+	border-collapse:collapse;
+	border-color:#d18c54;
+	text-shadow:1px 1px 1px black;
+}
+
+.links{
+	width:100%;
+	border-color: #6a438c;
+	border-width: 3px;
+	border-style: solid;
+}
+
+td{
+	border-style:solid;
+	border-width: 5px;
+	border-color: #d18c54;
+}
+
+.titulos{
+	background-color:#debca2;
+	
+        	
+}
+
+.blanco{
+		border-color: #6a438c;
+		border-width: 2px;
+} 
+
+ul{	
+	font-size:20px;
+	text-align:justify;
+	margin-left: 10%;
+	margin-right:10%;
+	text-shadow: 1px 1px 1px black;
+}
+ol{	
+	font-size:20px;
+	text-align:justify;
+	margin-left: 10%;
+	margin-right:10%;
+	text-shadow: 1px 1px 1px black;
+}
+a:link{ 
+		color: #b281de;
+		font-size:20px;
+		text-decoration: none;
+		background-color: white;
+		text-shadow: 1px 1px 1px #6a438c;
+}
+a:hover{ 
+		color:white;
+		background-color:#b281de;
+}
+a:visited{
+		color:#5c352e;
+}
+
+
+.galeria{
+        display:inline;
+}
+	    
+.fotos:link	{ 
+            background-color:transparent;
+			border-style:none;
+}
